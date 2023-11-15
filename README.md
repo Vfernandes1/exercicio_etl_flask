@@ -66,11 +66,13 @@ Cada arquivo de teste contem conjuntos de testes relacionados a uma determinada 
 
 Neste caso, um possui um teste mais robusto que o outro (test_app_double_ver.py é o mais robusto). E como boa prática orientada pelo professor, é necessário que haja execução seletiva dos testes para garantir que não haja nenhum gargálo.
 
+Sendo assim, o segundo teste é esperado que haja uma "falha" e que retorne erro para que haja a evidência das possíveis fraquezas e melhoría contínua do desenvolvimento
+
 ### Estrutura do Projeto
 
 - `app.py`: Arquivo principal da aplicação Flask.
 - `test_app.py`: Arquivo de teste automatizado.
-- `test_app_double_ver.py`: Arquivo de teste automatizado mais robusto.
+- `test_app_double_ver.py`: Arquivo de teste automatizado mais robusto (É IMPORTANTE CITAR QUE ESTE É ESPERADO QUE DÊ ERRO para visualização de gargálos)
 - `instance/weather_data.db`: Pasta para armazenar o banco de dados SQLite.
 
 ### Observações para rodar projeto:
@@ -81,7 +83,7 @@ Neste caso, um possui um teste mais robusto que o outro (test_app_double_ver.py 
 
 ### Exemplo do código rodando
 
-Com a utilização do Visual Code, pude rodar diretamente na IDE utilizando a ferramenta "RUN". A porta 5001 já estava configurada, e o código testado:
+Com a utilização do Visual Code, pude rodar diretamente na IDE utilizando a ferramenta "RUN". A porta 5001 já estava configurada, e o código testado (apenas primeiro teste):
 
 ![image_720](https://github.com/Vfernandes1/exercicio_etl_flask/assets/99264567/e1a8b63f-9594-48f1-9fcb-49404ad2ae97)
 
