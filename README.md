@@ -6,12 +6,12 @@
 ### Curso: Sistemas de Informação
 ### Professor: Afonso Cesar Lelis Brandão
 
-### Requisitos
+### Requisitos:
 
 - Python 3.x instalado
 - Pacotes necessários, instaláveis via `pip install flask requests flask_sqlalchemy`
 
-### Passo a Passo
+### Passo a Passo:
 
 **1. Configuração do Ambiente Virtual (Opcional, no entanto utilizei nesse exercício porque achei legal :P )**
       Em seu terminal, digite e confirme o seguinte:
@@ -68,7 +68,7 @@ Neste caso, um possui um teste mais robusto que o outro (test_app_double_ver.py 
 
 Sendo assim, o segundo teste é esperado que haja uma "falha" e que retorne erro para que haja a evidência das possíveis fraquezas e melhoría contínua do desenvolvimento
 
-### Estrutura do Projeto
+### Estrutura do Projeto:
 
 - `app.py`: Arquivo principal da aplicação Flask.
 - `test_app.py`: Arquivo de teste automatizado.
@@ -81,7 +81,7 @@ Sendo assim, o segundo teste é esperado que haja uma "falha" e que retorne erro
 - Caso deseje utilizar um banco de dados diferente, ajuste a configuração no `app.py`;
 - Modificações adicionais podem ser feitas para personalizar ou estender a funcionalidade da aplicação.
 
-### Exemplo do código rodando
+### Exemplo do código rodando:
 
 Com a utilização do Visual Code, pude rodar diretamente na IDE utilizando a ferramenta "RUN". A porta 5001 já estava configurada, e o código testado (apenas primeiro teste):
 
@@ -94,6 +94,33 @@ Resultado:
 
 ![image_720](https://github.com/Vfernandes1/exercicio_etl_flask/assets/99264567/85c0471a-c6cb-4200-af6c-e889a969402c)
 
+
+### Tecnologia e Ferramentas que foram utilizadas:
+
+**OpenWeather:**
+
+- O OpenWeather é uma plataforma que disponibiliza informações meteorológicas em tempo real para diversas localidades ao redor do mundo. Neste projeto, essa tecnologia é empregada para obter dados sobre as condições climáticas das cidades necessárias, visando análise e armazenamento.
+
+**Python:**
+
+- Python é uma linguagem de programação versátil e de alto nível, amplamente utilizada no desenvolvimento de aplicativos e scripts. No contexto deste projeto, Python é a linguagem principal, sendo empregada na implementação de scripts para manipulação de dados, integração com a API OpenWeather e no desenvolvimento da aplicação Flask.
+
+**Flask:**
+
+- Flask é um framework web em Python que simplifica o desenvolvimento de aplicativos web. Neste projeto, Flask é utilizado para criar uma API simples que consome dados do OpenWeather e disponibiliza informações climáticas.
+
+
+**SQLite:**
+
+- SQLite é um sistema de gerenciamento de banco de dados relacional leve e incorporado. No projeto, o SQLite é escolhido como o banco de dados para armazenar as informações meteorológicas coletadas. Sua simplicidade e eficiência o tornam uma escolha adequada para projetos menores, proporcionando funcionalidades de banco de dados sem a necessidade de um servidor dedicado.
+
+**SQLAlchemy:**
+
+- SQLAlchemy é uma biblioteca em Python que fornece uma abstração sobre bancos de dados relacionais. No projeto, o SQLAlchemy é utilizado em conjunto com o Flask para facilitar a interação com o banco de dados SQLite. Ele oferece uma maneira mais intuitiva e orientada a objetos de lidar com operações de banco de dados em comparação com o SQL tradicional.
+
+**Unittest:**
+
+- Unittest é o módulo de teste integrado no Python, fornecendo uma estrutura para escrever e executar testes automatizados. No projeto, o Unittest é utilizado para criar testes que verificam o correto funcionamento de diferentes partes da aplicação, garantindo que estas estejam em conformidade com as especificações e evitando regressões durante o desenvolvimento.
 
 ### Referências:
 
