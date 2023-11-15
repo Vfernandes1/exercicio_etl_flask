@@ -2,6 +2,10 @@
 
 #### Este projeto demonstra uma aplicação Flask para realizar uma extração, transformação e carga (ETL) de dados meteorológicos da API OpenWeather em um banco de dados SQLite.
 
+### Aluno: Vinícius Oliveira Fernandes
+### Curso: Sistemas de Informação
+### Professor: Afonso Cesar Lelis Brandão
+
 ### Requisitos
 
 - Python 3.x instalado
