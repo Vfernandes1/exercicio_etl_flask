@@ -81,4 +81,10 @@ Neste caso, um possui um teste mais robusto que o outro (test_app_double_ver.py 
 
 ### Referências:
 
+Installation — Flask Documentation (3.0.X). (n.d.). https://flask.palletsprojects.com/en/3.0.x/installation/#virtual-environments
+
+datagy. (2023, March 22). Build YOUR OWN Weather App in Python with Flask (COMPLETE Beginner Tutorial) [Video]. YouTube. https://www.youtube.com/watch?v=JCD7YdOSsWI
+
+OpenWeatherMap.org. (n.d.). Weather API - OpenWeatherMap. https://openweathermap.org/api
+
 OpenAI. (2022). GPT-3.5 Architecture. Em OpenAI. https://www.openai.com/ 
