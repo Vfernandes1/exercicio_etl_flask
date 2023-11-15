@@ -79,6 +79,20 @@ Neste caso, um possui um teste mais robusto que o outro (test_app_double_ver.py 
 - Caso deseje utilizar um banco de dados diferente, ajuste a configuração no `app.py`;
 - Modificações adicionais podem ser feitas para personalizar ou estender a funcionalidade da aplicação.
 
+### Exemplo do código rodando
+
+Com a utilização do Visual Code, pude rodar diretamente na IDE utilizando a ferramenta "RUN". A porta 5001 já estava configurada, e o código testado:
+
+![image_720](https://github.com/Vfernandes1/exercicio_etl_flask/assets/99264567/e1a8b63f-9594-48f1-9fcb-49404ad2ae97)
+
+
+![image](https://github.com/Vfernandes1/exercicio_etl_flask/assets/99264567/ce2d5038-0bfb-40b6-bfd6-28e5dbf6e882)
+
+Resultado:
+
+![image_720](https://github.com/Vfernandes1/exercicio_etl_flask/assets/99264567/85c0471a-c6cb-4200-af6c-e889a969402c)
+
+
 ### Referências:
 
 Installation — Flask Documentation (3.0.X). (n.d.). https://flask.palletsprojects.com/en/3.0.x/installation/#virtual-environments
